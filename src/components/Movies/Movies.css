@@ -1,0 +1,13 @@
+.movies__item {
+   margin-bottom: 21px;
+}
+
+.not-film {
+   background-color: #FFEEDB;
+   padding: 10px;
+   font-size: 19px;
+   display: flex;
+   align-items: center;
+   line-height: 50px;
+}
+

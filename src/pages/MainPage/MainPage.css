@@ -1,0 +1,41 @@
+.main-page__content {
+   padding: 42px calc(50% - 500px);
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.main-page__main-section {
+   padding-left: 30px;
+   box-sizing: border-box;
+   width: 60%;
+   padding-right: 0;
+}
+
+.main-page__search-box {
+   margin-bottom: 35px;
+}
+
+.main-page__favorites {
+   width: 35%;
+   padding-right: 30px;
+   margin: 0;
+}
+
+.favorite-show-btn {
+   display: none;
+   border: none;
+   background-color: #2c58db;
+   cursor: pointer;
+   padding: 10px 15px;
+   color: #FFEEDB;
+   font-size: 15px;
+   transition: all 0.2s linear;
+   margin: 10px auto 0;
+   width: 60%;
+}
+
+.favorite-show-btn:hover {
+   opacity: 0.9;
+   transition: all 0.2s linear;
+}

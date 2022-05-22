@@ -1,0 +1,41 @@
+/* Color palette https://coolors.co/ffeedb-e63946-6a8d73-000807-496ddb */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body,
+button,
+input {
+   font-family: 'Roboto', 'Helvetica', sans-serif;
+   color: #000807;
+}
+
+@media (max-width: 690px) {
+   .main-page__content {
+      flex-direction: column-reverse;
+   }
+
+   .main-page__main-section {
+      width: 100%;
+      padding-right: 30px;
+   }
+
+   .main-page__favorites {
+      width: 70%;
+      margin: 0 auto 20px;
+      padding-right: 0;
+   }
+
+   .main-page__favorites-hide {
+      display: none;
+   }
+
+   .favorite-show-btn {
+      display: block;
+   }
+}  
+
+@media (max-width: 435px) {
+   .favorite-show-btn {
+      font-size: 13px;
+   }
+}
